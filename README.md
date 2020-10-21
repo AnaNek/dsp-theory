@@ -21,15 +21,15 @@
 ### [List of lectures (Russian)](https://github.com/capitanov/dsp-theory/tree/master/src "DSP courses in RU")
 ### [List of lectures (English)](https://github.com/capitanov/dsp-theory/tree/master/src-en "DSP courses in EN")
 
-- [Сигналы: аналоговые, дискретные, цифровые. Z-преобразование](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_1_signals.ipynb "Signals, analog, digital, Z-transform"),
-- [Преобразование Фурье: амплитудный и фазовый сигнала, ДПФ и БПФ](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_2_spectrum.ipynb "Discrete Fourier Transform. FFT, IFFT"),
-- [Свертка и корреляция. Линейная и циклическая свертка. Быстрая свёртка](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_3_convolution.ipynb "Correlation, convolution: linear / circular / fast")
-- [Случайные процессы. Белый шум. Функция плотности вероятностей](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_4_random_noise.ipynb "Random signals AWGN, Noise")
-- [Детерминированные сигналы. Модуляция: АМ, ЧМ, ФМ, ЛЧМ. Манипуляция](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_5_modulation.ipynb "Modulation. AM-, FM-, Chirp signals")
-- [Фильтрация сигналов: БИХ, КИХ фильтры](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_6_iir_fir_filters.ipynb "IIR / FIR filters")
-- [Оконная фильтрация. Детектирование слабых сигналов с помощью наложения окна](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_7_windows.ipynb "Windows, filtration: Hann, Blackman, Flattop, Kaiser etc."), 
-- [Ресемплинг: децимация и интерполяция. CIC-фильтры, фильтры скользящего среднего](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_8_resampling.ipynb "CIC filters, decimation, interpolation, moving average")
-- [Непараметрические методы спектрального анализа](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_9_periodogram.ipynb "Spectrum analysis: Welch's Method")
+- [Сигналы: аналоговые, дискретные, цифровые. Z-преобразование](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_01_signals.ipynb "Signals, analog, digital, Z-transform"),
+- [Преобразование Фурье: амплитудный и фазовый сигнала, ДПФ и БПФ](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_02_spectrum.ipynb "Discrete Fourier Transform. FFT, IFFT"),
+- [Свертка и корреляция. Линейная и циклическая свертка. Быстрая свёртка](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_03_convolution.ipynb "Correlation, convolution: linear / circular / fast")
+- [Случайные процессы. Белый шум. Функция плотности вероятностей](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_04_random_noise.ipynb "Random signals AWGN, Noise")
+- [Детерминированные сигналы. Модуляция: АМ, ЧМ, ФМ, ЛЧМ. Манипуляция](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_05_modulation.ipynb "Modulation. AM-, FM-, Chirp signals")
+- [Фильтрация сигналов: БИХ, КИХ фильтры](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_06_iir_fir_filters.ipynb "IIR / FIR filters")
+- [Оконная фильтрация. Детектирование слабых сигналов с помощью наложения окна](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_07_windows.ipynb "Windows, filtration: Hann, Blackman, Flattop, Kaiser etc."), 
+- [Ресемплинг: децимация и интерполяция. CIC-фильтры, фильтры скользящего среднего](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_08_resampling.ipynb "CIC filters, decimation, interpolation, moving average")
+- [Непараметрические методы спектрального анализа](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_09_periodogram.ipynb "Spectrum analysis: Welch's Method")
 - [Полифазные схемы преобразования Фурье - усреднение по частоте и по времени](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_10_polyphase_ffts.ipynb "Spectrum analysis: average spectrum")
 
 ### List of requirements
@@ -42,12 +42,7 @@
 | `scipy`          |
 | `numpy`          |
 
-### TODO
-
-- Wavelet analysis
-- Audio analysis: Mel-spectrogram, griffin-lim algorithm, etc.
-
-P.S. Thanks for reading!
+P.S. Thanks for reading!  
 P.P.S. English Version of the notebooks can be found in `src-en` folder.
 
 ### Link
@@ -56,10 +51,10 @@ P.P.S. English Version of the notebooks can be found in `src-en` folder.
 ### Contributors:
   * Kapitanov Alexander (capitanov)
   * Vladimir Fadeev (kirlf)
-  * Kunal Rustagi (kunalrustagi08)
+  * Kunal Rustagi (kunalrustagi08) - EN versions.
   
 ### Release:
   * 2019/07/10.
-
+    
 ### License:
   * GNU GPL 3.0.
