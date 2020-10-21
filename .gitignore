@@ -82,6 +82,7 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
+.idea
 .env
 .venv
 env/
@@ -101,4 +102,8 @@ venv.bak/
 /site
 
 # mypy
+
+# User-added
+*.png
+
 .mypy_cache/
