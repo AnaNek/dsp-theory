@@ -1,16 +1,14 @@
-# Цифровая обработка сигналов
+# Digital signal processing
 
 ![Digital signal processing](img/cic_signal.svg "Improve your skills in DSP!")
 
 Проект содержит интерактивные материалы в виде законченных лекций по **цифровой обработке сигналов** (ЦОС) в виде тетрадок Jupyter Notebook. Это мои заметки по теоретическим аспектам и практическому применению задач ЦОС.  
 
-Материалы представлены с использованием библиотек на языке *Python* (numpy , scipy, matplotlib, seaborn etc). Основная информация взята из **моих лекций**, которые я, будучи аспирантом, читал студентам Московского Энергетического Института (НИУ МЭИ). Частично информация из этих лекций была использована на обучающих лекциях в Центре Современной Электроники, где я выступал в качестве лектора. Кроме того, в эти лекции входит перевод различных статей, компиляция материалов из достоверных источников и литературы по тематике цифровой обработки сигналов, а также официальная документация по прикладным пакетам и встроенным функциям библиотек scipy и numpy языка **Python**.  
+Материалы представлены с использованием библиотек на языке *Python* (numpy , scipy, matplotlib, seaborn etc). Основная информация взята из **моих лекций**, которые я, будучи аспирантом, читал студентам Московского Энергетического Института (НИУ МЭИ). Частично информация из этих лекций была использована на обучающих семинарах в Центре Современной Электроники, где я выступал в качестве докладчика. Кроме того, в эти лекции входит перевод различных статей, компиляция материалов из достоверных источников и литературы по тематике цифровой обработки сигналов, а также официальная документация по прикладным пакетам и встроенным функциям библиотек scipy и numpy языка **Python**.  
 
 Большая часть обучающего материала для наглядного и интерактивного представления реализована с использованием *Jupyter Notebook*.  
 
-*В зависимости от наличия свободного времени этот проект будет развиваться и постепенно наполняться новыми материалами по инициативе автора (то есть меня)*.  
-
-### Общая информация 
+### Main information
 
 | **Title**     | Digital signal processing |
 | :-- | :-- |
@@ -20,7 +18,8 @@
 | **Release**   | 10 Jul 2019               |
 | **License**   | GNU GPL 3.0               |
 
-### [Список лекций](https://github.com/capitanov/dsp-theory/tree/master/src "DSP courses")
+### [List of lectures (Russian)](https://github.com/capitanov/dsp-theory/tree/master/src "DSP courses in RU")
+### [List of lectures (English)](https://github.com/capitanov/dsp-theory/tree/master/src-en "DSP courses in EN")
 
 - [Сигналы: аналоговые, дискретные, цифровые. Z-преобразование](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_1_signals.ipynb "Signals, analog, digital, Z-transform"),
 - [Преобразование Фурье: амплитудный и фазовый сигнала, ДПФ и БПФ](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_2_spectrum.ipynb "Discrete Fourier Transform. FFT, IFFT"),
@@ -33,7 +32,7 @@
 - [Непараметрические методы спектрального анализа](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_9_periodogram.ipynb "Spectrum analysis: Welch's Method")
 - [Полифазные схемы преобразования Фурье - усреднение по частоте и по времени](https://nbviewer.jupyter.org/github/capitanov/dsp-theory/blob/master/src/dsp_theory_10_polyphase_ffts.ipynb "Spectrum analysis: average spectrum")
 
-## Зависимости
+### List of requirements
 
 | **Requirements** |
 | :-- |
@@ -48,14 +47,16 @@
 - Wavelet analysis
 - Audio analysis: Mel-spectrogram, griffin-lim algorithm, etc.
 
-P.S. Спасибо за внимание, следите за развитием проекта!
+P.S. Thanks for reading!
+P.P.S. English Version of the notebooks can be found in `src-en` folder.
 
 ### Link
   * https://habr.com/users/capitanov/
   
-### Authors:
-  * Kapitanov Alexander
-  * Vladimir Fadeev
+### Contributors:
+  * Kapitanov Alexander (capitanov)
+  * Vladimir Fadeev (kirlf)
+  * Kunal Rustagi (kunalrustagi08)
   
 ### Release:
   * 2019/07/10.
